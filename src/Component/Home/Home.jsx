@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import DoorDash from "./DoorDash";
 import Experience from "./Experience";
 import ManageSpend from "./ManageSpend/ManageSpend";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <ManageSpend />
       <Experience />
+      <DoorDash />
     </div>
   );
 };
