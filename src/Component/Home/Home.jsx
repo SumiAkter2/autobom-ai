@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Experience from "./Experience";
 import ManageSpend from "./ManageSpend/ManageSpend";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Banner />
       <ManageSpend />
+      <Experience />
     </div>
   );
 };

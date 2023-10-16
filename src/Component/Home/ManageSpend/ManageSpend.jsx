@@ -104,8 +104,8 @@ const ManageSpend = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="text-center">
-        <h1 className="lg:text-5xl text-3xl font-bold my-4">
+      <div className="text-center ">
+        <h1 className="lg:text-5xl text-3xl font-bold my-4 ">
           The smartest way to manage spend.
         </h1>
         <p className="text-xl">

@@ -32,6 +32,7 @@
     bottom: 0;
     left: 0;
     border-radius: 0 100% 0 15px;
+    /* color: orangered; */
 }
 
 .cards:hover::before,
