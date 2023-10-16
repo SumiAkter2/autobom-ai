@@ -10,38 +10,34 @@ const ManageSpend = () => {
   return (
     <div>
       <Swiper
-        loop={true}
         autoplay={{
           delay: 0,
-          pauseOnMouseEnter: true,
-          disableOnInteraction: false,
         }}
-        // slidesPerView={3}
-        speed={12000}
+        speed={10000}
+        loop={true}
         modules={[Autoplay]}
         breakpoints={{
-          // when window width is >= 320px
           320: {
             slidesPerView: 3,
             spaceBetween: 150,
           },
-          // when window width is >= 480px
+
           480: {
             slidesPerView: 3,
             spaceBetween: 30,
           },
-          // when window width is >= 640px
+
           640: {
             slidesPerView: 4,
             spaceBetween: 180,
           },
           768: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+            slidesPerView: 4,
+            spaceBetween: 40,
           },
         }}
         className="my-12 sample-slider"

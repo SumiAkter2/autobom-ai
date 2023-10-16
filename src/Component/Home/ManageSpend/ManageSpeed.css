@@ -1,6 +1,8 @@
 .sample-slider  {
     transition-timing-function: linear;
+    
 }
+
 .cards {
     position: relative;
     /* width: 220px;*/
