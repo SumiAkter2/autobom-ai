@@ -17,22 +17,25 @@ export const manageSpeedInfo = [
     id: 1,
     img: card,
     name: "Global corporate cards",
-    des: "",
+    des: "Issue cards for purchasing, travel, expenses, and more with custom limits and controls.",
   },
   {
     id: 2,
     img: dollar,
     name: "Expense management",
+    des: "Control all spend, payments, and reimbursements — and automate expense reports.",
   },
   {
     id: 3,
     img: travel,
     name: "Travel",
+    des: "Book and manage global travel and group events, with unbiased inventory and 24/7 agent support.",
   },
   {
     id: 4,
     img: bill,
     name: "Bill pay",
+    des: "Automate your entire accounts payable process, from invoice capture to payment to reconciliation.",
   },
 ];
 export const enterpriseInfo = [

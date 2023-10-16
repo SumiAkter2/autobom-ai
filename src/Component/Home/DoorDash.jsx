@@ -26,14 +26,16 @@ const DoorDash = () => {
               including for budget anomalies and overages, will help you keep
               everyone accountable and on budget without spending hours in Brex.
             </p>
-            <button className="pointer text-orange-600 font-semibold flex items-center ">
-              See how budgets work
-              <BsArrowRight
-                size="25px"
-                color="rgb(249 115 22)"
-                className="ml-2 "
-              />
-            </button>
+            <div className="flex items-center justify-center lg:justify-start">
+              <button className="pointer text-orange-600 font-semibold flex items-center ">
+                See how budgets work
+                <BsArrowRight
+                  size="25px"
+                  color="rgb(249 115 22)"
+                  className="ml-2 "
+                />
+              </button>
+            </div>
           </div>
           <img
             src="https://brand.brex.com/m/1a00cc3a05c7e895/webimage-Brex-Budgets-NoOrb.jpg"

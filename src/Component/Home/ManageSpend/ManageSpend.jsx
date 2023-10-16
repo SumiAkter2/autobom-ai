@@ -114,13 +114,17 @@ const ManageSpend = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 my-12 mx-6">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 lg:mx-32 mx-6 my-12">
         {manageSpeedInfo.map((info) => (
           <div key={info.id}>
-            <div>
-              <p>{info.img}</p>
-              <h1 className="text-xl font-bold">{info.name}</h1>
-              <button className="pointer text-orange-500 font-bold flex items-center ">
+            <div className="font-semibold p-6 border border-gray-700 lg:h-80 h-72 rounded-lg hover:border-gray-300 relative">
+              <div className="mb-4">
+                <p>{info.img}</p>
+              </div>
+              <h1 className="text-2xl font-bold">{info.name}</h1>
+              <p className="my-4">{info.des} </p>
+
+              <button className="pointer text-orange-500 font-bold flex items-center absolute bottom-6">
                 Learn more
                 <BsArrowRight
                   size="25px"

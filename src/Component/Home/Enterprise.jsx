@@ -6,7 +6,7 @@ const Enterprise = () => {
       <h1 className="lg:text-5xl font-bold text-3xl text-center mb-12">
         Enterprise-grade platform.
       </h1>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 mx-32 my-12 ">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 lg:mx-32 mx-6 my-12 ">
         {enterpriseInfo.map((info) => (
           <div key={info.id}>
             <div className="text-center  ">

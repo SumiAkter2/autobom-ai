@@ -1,8 +1,8 @@
 import { BsArrowRight } from "react-icons/bs";
 const Experience = () => {
   return (
-    <div>
-      <div className="text-center font-semibold">
+    <div className="mb-12">
+      <div className="text-center font-semibold p-2 ">
         <h1 className="lg:text-5xl text-3xl font-bold my-4">
           Go from reactive to proactive.
         </h1>
@@ -19,7 +19,7 @@ const Experience = () => {
             src="https://brand.brex.com/transform/094238b6-b923-41aa-af5f-6d4c862e42eb/Homepage-AI-Update?io=transform:fit,width:1400,height:943&quality=95"
             className="lg:max-w-lg rounded-lg shadow-2xl"
           />
-          <div className="lg:w-1/3 ">
+          <div className="lg:w-1/3 text-center lg:text-start">
             <h1 className="lg:text-4xl text-3xl font-bold ">
               An experience so easy, employees actually comply.
             </h1>
@@ -30,14 +30,16 @@ const Experience = () => {
               so your finance team won’t have to. Finally, you can close the
               books in hours, not weeks.
             </p>
-            <button className="pointer text-orange-500 font-bold flex items-center ">
-              Boost compliance with Brex AI
-              <BsArrowRight
-                size="25px"
-                color="rgb(249 115 22)"
-                className="ml-2 "
-              />
-            </button>
+            <div className="flex items-center justify-center lg:justify-start">
+              <button className="pointer text-orange-500 font-bold flex items-center ">
+                Boost compliance with Brex AI
+                <BsArrowRight
+                  size="25px"
+                  color="rgb(249 115 22)"
+                  className="ml-2 "
+                />
+              </button>
+            </div>
           </div>
         </div>
       </div>

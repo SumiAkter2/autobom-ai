@@ -28,7 +28,7 @@ const SuperHuman = () => {
                 reimbursements. Brex supports more countries and currencies than
                 anyone else.
               </p>
-              <div className=" flex items-center justify-center">
+              <div className=" flex items-center justify-center lg:justify-start">
                 <button className="pointer text-orange-600 font-semibold flex items-center ">
                   Explore Global Capabilities
                   <BsArrowRight
