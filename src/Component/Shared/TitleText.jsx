@@ -6,7 +6,7 @@ const TitleText = ({ img, title, subtitle,  buttonText }) => {
       <div className="text-center">
         <img className="w-52 mx-auto mb-12" src={img} />
 
-        <h1 className="text-5xl leading-20  w-3/5 mx-auto my-4 ">
+        <h1 className="lg:text-5xl text-3xl leading-20  lg:w-3/5 mx-auto my-4 p-2">
           <blockquote>{title}</blockquote>
         </h1>
         <p className="font-semibold my-8">{subtitle}</p>

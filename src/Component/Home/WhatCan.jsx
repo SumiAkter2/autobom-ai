@@ -5,7 +5,7 @@ const WhatCan = () => {
         <div className="hero-content flex-col lg:flex-row-reverse lg:gap-x-24">
           <img
             src="https://brand.brex.com/transform/d2f2341f-92ea-4983-a67d-417a52921900/Closed-loop-dark?io=transform:fit,width:1400,height:1400&quality=95"
-            className="max-w-xl rounded-lg shadow-2xl"
+            className="lg:max-w-xl rounded-lg shadow-2xl"
           />
           <div className="hero-content lg:text-start text-center text-neutral-content ">
             <div className="max-w-md ">

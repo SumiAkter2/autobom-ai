@@ -14,8 +14,8 @@ const DoorDash = () => {
       />
       <div className="hero min-h-screen lg:px-12">
         <div className="hero-content flex-col lg:flex-row lg:px-12">
-          <div className="lg:w-2/3 pl-24">
-            <h1 className="text-4xl font-bold ">
+          <div className="lg:w-2/3 lg:pl-24 text-center lg:text-start">
+            <h1 className="lg:text-4xl text-3xl font-bold ">
               Everyone stays on budget
               <br />
               <span>— in real time.</span>
@@ -37,7 +37,7 @@ const DoorDash = () => {
           </div>
           <img
             src="https://brand.brex.com/m/1a00cc3a05c7e895/webimage-Brex-Budgets-NoOrb.jpg"
-            className="max-w-2xl rounded-lg "
+            className="lg:max-w-2xl rounded-lg "
           />
         </div>
       </div>

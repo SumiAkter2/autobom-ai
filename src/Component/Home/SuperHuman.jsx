@@ -16,10 +16,10 @@ const SuperHuman = () => {
           <div className="hero-content flex-col lg:flex-row lg:px-12">
             <img
               src="https://brand.brex.com/transform/783fe59e-5136-499b-a749-18a5c972559c/home-global-updated?io=transform:fit,width:1400,height:1400&quality=95"
-              className="max-w-lg rounded-lg "
+              className="lg:max-w-lg rounded-lg "
             />
-            <div className="lg:w-2/3 pl-24">
-              <h1 className="text-4xl font-bold ">
+            <div className="lg:w-2/3 lg:pl-24 text-center lg:text-start">
+              <h1 className="lg:text-4xl text-3xl font-bold ">
                 Built for global spending and multinational operations.
               </h1>
               <p className="py-6 text-xl font-semibold">
@@ -28,14 +28,16 @@ const SuperHuman = () => {
                 reimbursements. Brex supports more countries and currencies than
                 anyone else.
               </p>
-              <button className="pointer text-orange-600 font-semibold flex items-center ">
-                Explore Global Capabilities
-                <BsArrowRight
-                  size="25px"
-                  color="rgb(249 115 22)"
-                  className="ml-2 "
-                />
-              </button>
+              <div className=" flex items-center justify-center">
+                <button className="pointer text-orange-600 font-semibold flex items-center ">
+                  Explore Global Capabilities
+                  <BsArrowRight
+                    size="25px"
+                    color="rgb(249 115 22)"
+                    className="ml-2 "
+                  />
+                </button>
+              </div>
             </div>
           </div>
         </div>

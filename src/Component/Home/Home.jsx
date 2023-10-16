@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import DoorDash from "./DoorDash";
+import Enterprise from "./Enterprise";
 import Experience from "./Experience";
 import ManageSpend from "./ManageSpend/ManageSpend";
 import SeatGeek from "./SeatGeek";
@@ -14,8 +15,9 @@ const Home = () => {
       <Experience />
       <DoorDash />
       <SuperHuman />
+      <Enterprise />
       <SeatGeek />
-      <WhatCan/>
+      <WhatCan />
     </div>
   );
 };

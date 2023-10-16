@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-// import { BsFillCheckCircleFill } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { Autoplay } from "swiper/modules";
 import { manageSpeedInfo } from "../../info/Info";
-// import { logoImage } from "../../info/Info";
+
 import "./ManageSpeed.css";
 const ManageSpend = () => {
   return (
@@ -114,13 +114,20 @@ const ManageSpend = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 my-12">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 my-12 mx-6">
         {manageSpeedInfo.map((info) => (
           <div key={info.id}>
-            <div className="cards">
-              <img src={info.img} alt="logo" />
-              <h1>{info.name}</h1>
-              <button>Learn more</button>
+            <div>
+              <p>{info.img}</p>
+              <h1 className="text-xl font-bold">{info.name}</h1>
+              <button className="pointer text-orange-500 font-bold flex items-center ">
+                Learn more
+                <BsArrowRight
+                  size="25px"
+                  color="rgb(249 115 22)"
+                  className="ml-2 "
+                />
+              </button>
             </div>
           </div>
         ))}

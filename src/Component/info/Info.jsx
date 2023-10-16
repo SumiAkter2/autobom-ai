@@ -2,14 +2,20 @@ import { BsCreditCardFill } from "react-icons/bs";
 import { RiMoneyDollarBoxFill } from "react-icons/ri";
 import { MdCardTravel } from "react-icons/md";
 import { MdPayments } from "react-icons/md";
-const card = <BsCreditCardFill />;
-const dollar = <RiMoneyDollarBoxFill />;
-const travel = <MdCardTravel />;
-const bill = <MdPayments />;
+import { AiOutlineSafety } from "react-icons/ai";
+import { PiChatTextLight } from "react-icons/pi";
+import { LiaPuzzlePieceSolid } from "react-icons/lia";
+const safe = <AiOutlineSafety size="35px" />;
+const text = <PiChatTextLight size="35px" />;
+const puzzle = <LiaPuzzlePieceSolid size="35px" />;
+const card = <BsCreditCardFill size="30px" />;
+const dollar = <RiMoneyDollarBoxFill size="30px" />;
+const travel = <MdCardTravel size="30px" />;
+const bill = <MdPayments size="30px" />;
 export const manageSpeedInfo = [
   {
     id: 1,
-    img: "BsCreditCardFill",
+    img: card,
     name: "Global corporate cards",
     des: "",
   },
@@ -29,6 +35,39 @@ export const manageSpeedInfo = [
     name: "Bill pay",
   },
 ];
+export const enterpriseInfo = [
+  {
+    id: 1,
+    img: safe,
+    name: "Secure",
+    des1: "SOC 2 Certification",
+    des2: "PCI DSS Compliant",
+    des3: "Multi-factor ID authentication",
+    des4: "24/7 global fraud monitoring",
+    des5: "Self-serve Security & Privacy Center",
+  },
+  {
+    id: 2,
+    img: puzzle,
+    name: "Integrated",
+    des1: "ERP and accounting",
+    des2: "Productivity and HRIS",
+    des3: "API automations",
+    des4: "Security and dedicated SSO",
+    des5: "SSO for Enterprise IdP",
+  },
+  {
+    id: 3,
+    img: text,
+    name: "Hands-on",
+    des1: "Dedicated account specialist",
+    des2: "Dedicated customer success manager",
+    des3: "Implementation and training support",
+    des4: "24/7 customer service",
+    des5: "24/7 travel agent support",
+  },
+];
+
 export const geekInfo = [
   {
     id: 1,
