@@ -16,7 +16,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100 text-black font-bold shadow-lg fixed lg:top-0 ">
+      <div className="navbar bg-base-100 text-black font-bold shadow-lg fixed lg:top-0 z-20">
         <div className="navbar-start">
           {/* menu drawer */}
           <div className="drawer  lg:hidden ">

@@ -1,0 +1,48 @@
+.sample-slider  {
+    transition-timing-function: linear;
+}
+.cards {
+    position: relative;
+    /* width: 220px;*/
+   height: 320px; 
+    background: rgb(105, 107, 107);
+    
+    border-radius: 15px;
+   
+}
+
+.cards::before,
+.cards::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+  
+    background-color: rgb(231, 232, 232);
+    transition: all 0.5s;
+}
+
+.cards::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+}
+
+.cards::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100% 0 15px;
+}
+
+.cards:hover::before,
+.cards:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.cards:hover:after {
+    content: "";
+    color: black;
+}
