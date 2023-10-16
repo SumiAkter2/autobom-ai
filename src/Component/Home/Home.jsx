@@ -4,6 +4,7 @@ import Experience from "./Experience";
 import ManageSpend from "./ManageSpend/ManageSpend";
 import SeatGeek from "./SeatGeek";
 import SuperHuman from "./SuperHuman";
+import WhatCan from "./WhatCan";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <DoorDash />
       <SuperHuman />
       <SeatGeek />
+      <WhatCan/>
     </div>
   );
 };

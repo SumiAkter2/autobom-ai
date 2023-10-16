@@ -36,12 +36,15 @@ const SeatGeek = () => {
 
       <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-6  my-12 lg:mx-12">
         {geekInfo.map((info) => (
-          <div key={info.id}>
+          <div
+            key={info.id}
+            className=" hover:border hover:border-gray-400 rounded-md ease-in duration-300"
+          >
             <div className="px-4">
-              <img src={info.img} alt="image" className="w-36 my-6"/>
+              <img src={info.img} alt="image" className="w-36 my-6" />
               <p className="font-semibold">{info.name}</p>
               <button className="pointer text-orange-600 font-semibold flex items-center mt-6">
-               Read more
+                Read more
                 <BsArrowRight
                   size="25px"
                   color="rgb(249 115 22)"
