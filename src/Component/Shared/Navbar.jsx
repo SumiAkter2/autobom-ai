@@ -1,16 +1,20 @@
 import { HiMenuAlt1 } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navItem = (
     <>
       <li>
-        <a>Products</a>
+        <Link to="/">Products</Link>
       </li>
       <li>
-        <a>Statups</a>
+        <Link to="/">Statups</Link>
       </li>
       <li>
-        <a>Resources</a>
+        <Link to="/">Resources</Link>
+      </li>
+      <li>
+        <Link to="/dashboard">Dashboard</Link>
       </li>
     </>
   );
@@ -41,12 +45,13 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          <a className="btn btn-ghost font-bold text-xl "> Autobom ai</a>
+          <Link to="/" className="px-4 font-bold text-xl ">
+            Autobom ai
+          </Link>
         </div>
 
         {/* menu */}
 
-        {/* ens */}
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
         </div>
