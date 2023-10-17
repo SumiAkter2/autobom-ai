@@ -8,7 +8,7 @@ const SeatGeek = () => {
           className="w-32 mx-auto mb-12"
           src="https://brand.brex.com/transform/88a6dc06-021b-4b01-b467-c27dd2d45d3a/Seatgeek-Logo?io=transform:fit,width:1400,height:996&quality=95"
         />
- 
+
         <h1 className="lg:text-5xl text-3xl leading-20  lg:w-3/5 mx-auto my-4 p-2">
           “Brex offers a level of enterprise-grade automation, integration, and
           security that far exceeds the 10 other providers we evaluated. It has
@@ -34,7 +34,7 @@ const SeatGeek = () => {
         alt="image"
       />
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-6  my-12 lg:mx-12">
+      <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-6  my-12 lg:mx-12 px-4">
         {geekInfo.map((info) => (
           <div
             key={info.id}

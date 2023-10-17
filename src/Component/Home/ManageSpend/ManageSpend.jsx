@@ -23,7 +23,7 @@ const ManageSpend = () => {
         breakpoints={{
           320: {
             slidesPerView: 3,
-            spaceBetween: 150,
+            spaceBetween: 30,
           },
 
           480: {
@@ -33,7 +33,7 @@ const ManageSpend = () => {
 
           640: {
             slidesPerView: 4,
-            spaceBetween: 180,
+            spaceBetween: 40,
           },
           768: {
             slidesPerView: 4,
@@ -47,7 +47,7 @@ const ManageSpend = () => {
         className="my-12 sample-slider"
       >
         <SwiperSlide>
-          <img className="w-32" src={img1} alt="brand image" />
+          <img className="w-32 " src={img1} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
           <img className="w-20" src={img2} alt="brand image" />
