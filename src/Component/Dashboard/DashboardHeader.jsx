@@ -27,7 +27,7 @@ const DashboardHeader = () => {
   );
   return (
     <div>
-      <div className="navbar bg-slate-300 px-4 pt-20">
+      <div className="navbar bg-slate-300 px-4 pt-20 text-black">
         <div className="flex-1">
           <ul className="menu menu-horizontal px-1 font-bold">{navItem}</ul>
         </div>
