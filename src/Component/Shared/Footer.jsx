@@ -93,8 +93,9 @@ const Footer = () => {
             </p>
             <p>
               Investing in securities products involves risk and you could lose
-              money. Brex Treasury is not a bank nor an investment adviser and
-              your Brex business account is not an FDIC-insured bank account
+              money. AUTOBOM AI Treasury is not a bank nor an investment adviser
+              and your AUTOBOM AI business account is not an FDIC-insured bank
+              account
             </p>
 
             <p>
@@ -115,11 +116,11 @@ const Footer = () => {
             <p>
               This is not an offer, solicitation of an offer, recommendation or
               advice to buy or sell any security, financial product, instrument
-              or to open a brokerage account in any jurisdiction where Brex
-              Treasury is not registered. Review the background of Brex Treasury
-              or its investment professionals on FINRA's BrokerCheck website.
-              Please visit the Deposit Sweep Program Disclosure Statement for
-              important legal disclosures.
+              or to open a brokerage account in any jurisdiction where AUTOBOM
+              AI Treasury is not registered. Review the background of AUTOBOM AI
+              Treasury or its investment professionals on FINRA's BrokerCheck
+              website. Please visit the Deposit Sweep Program Disclosure
+              Statement for important legal disclosures.
             </p>
 
             <p className="font-bold my-4">

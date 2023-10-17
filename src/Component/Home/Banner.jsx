@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 import img from "../../assets/dashboard/dashboard.png";
 
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen shadow-lg my-24 px-4">
+      <div className="hero min-h-screen shadow-lg lg:my-24 py-24 lg:py-0 px-4">
         <div className="lg:hero-content lg:flex-row-reverse ">
           <div className=" lg:text-start text-center  lg:absolute left-10 text-black">
             <div className="lg:max-w-lg">
@@ -23,9 +22,11 @@ const Banner = () => {
             </div>
           </div>
           <div className="lg:absolute right-10  flex justify-center items-center mt-12 lg:mt-0 px-4">
-            <Link to="/dashboard">
-              <img src={img} alt="img" className="lg:max-w-3xl shadow-lg rounded-lg" />
-            </Link>
+            <img
+              src={img}
+              alt="img"
+              className="lg:max-w-3xl shadow-lg rounded-lg"
+            />
           </div>
         </div>
       </div>

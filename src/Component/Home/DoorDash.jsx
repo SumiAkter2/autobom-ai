@@ -4,13 +4,13 @@ const DoorDash = () => {
   return (
     <div>
       <TitleText
-        img="https://brand.brex.com/transform/3391ee40-79e0-42d1-ab37-98cb07700e76/sme-doordash-logo?io=transform:fit,width:1400,height:166&quality=95"
+        img="https://brand.Brex.com/transform/3391ee40-79e0-42d1-ab37-98cb07700e76/sme-doordash-logo?io=transform:fit,width:1400,height:166&quality=95"
         alt="door-dash image"
         title=" “We needed a better card and spend management solution to serve
             everyone faster and deliver a better experience for end users.”"
         subtitle="  — Josh Pickles, Head of Global Strategic Sourcing and Procurement,
           DoorDash"
-        buttonText="  See how DoorDash uses Brex "
+        buttonText="  See how DoorDash uses AUTOBOM AI "
       />
       <div className="hero min-h-screen lg:px-12">
         <div className="hero-content flex-col lg:flex-row lg:px-12">
@@ -24,7 +24,8 @@ const DoorDash = () => {
               Provision spend proactively and track actuals versus budgets in
               real time for greater visibility and control. AI-powered alerts,
               including for budget anomalies and overages, will help you keep
-              everyone accountable and on budget without spending hours in Brex.
+              everyone accountable and on budget without spending hours in
+              AUTOBOM AI.
             </p>
             <div className="flex items-center justify-center lg:justify-start">
               <button className="pointer text-orange-600 font-semibold flex items-center ">
@@ -38,7 +39,7 @@ const DoorDash = () => {
             </div>
           </div>
           <img
-            src="https://brand.brex.com/m/1a00cc3a05c7e895/webimage-Brex-Budgets-NoOrb.jpg"
+            src="https://brand.Brex.com/m/1a00cc3a05c7e895/webimage-AUTOBOM AI-Budgets-NoOrb.jpg"
             className="lg:max-w-2xl rounded-lg "
           />
         </div>
