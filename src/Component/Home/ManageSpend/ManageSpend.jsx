@@ -73,7 +73,7 @@ const ManageSpend = () => {
 
       <div className="text-center px-4">
         <h1 className="lg:text-4xl text-3xl font-bold my-4 ">
-          The smartest way to optimized Bill of Materials.
+          The smartest way to optimize Bill of Materials.
         </h1>
         <p className="text-xl lg:w-2/3 mx-auto">
           AutoBOM.AI is your all-in-one solution for BOM optimization. It
