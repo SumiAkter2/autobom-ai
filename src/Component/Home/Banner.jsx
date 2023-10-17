@@ -3,15 +3,15 @@ import img from "../../assets/dashboard/dashboard.png";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen shadow-lg lg:my-24 py-24 lg:py-0 px-4">
+      <div className="hero min-h-screen shadow-lg lg:my-24 py-24 lg:py-0 px-2">
         <div className="lg:hero-content lg:flex-row-reverse ">
-          <div className=" lg:text-start text-center  lg:absolute left-10 text-black">
-            <div className="lg:max-w-lg">
+          <div className=" lg:text-start text-center  lg:absolute left-10 text-black ">
+            <div className="lg:max-w-md">
               <h1 className="mb-6 lg:text-5xl text-3xl font-bold">
                 Meet AUTOBOM Ai
               </h1>
-              <p className="my-12 text-xl font-bold leading-9">
-                Revolutionization BOM Optimizing with Ai power. Reducing cost,
+              <p className="my-12 lg:text-xl font-semibold leading-9">
+                Revolutionizing BOM Optimization with Ai power. Reducing cost,
                 lead times and optimizing engineering.
               </p>
               <a href="mailto:hariish@autobom.ai " className="mt-8">
