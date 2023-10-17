@@ -9,7 +9,6 @@ import img2 from "../../../assets/dashboard/t.png";
 import img3 from "../../../assets/dashboard/gm.png";
 import img4 from "../../../assets/dashboard/ford.png";
 
-import "./ManageSpeed.css";
 const ManageSpend = () => {
   return (
     <div className="bg-white">
@@ -44,7 +43,7 @@ const ManageSpend = () => {
             spaceBetween: 40,
           },
         }}
-        className="my-12 sample-slider"
+        className="my-12 "
       >
         <SwiperSlide>
           <img className="w-32 " src={img1} alt="brand image" />
@@ -90,10 +89,10 @@ const ManageSpend = () => {
               <div className="mb-4">
                 <p>{info.img}</p>
               </div>
-              <h1 className="text-2xl font-bold">{info.name}</h1>
-              <p className="my-4">{info.des} </p>
+              <h1 className="text-xl font-bold">{info.name}</h1>
+              <p className="my-4 ">{info.des} </p>
 
-              <button className="pointer text-orange-500 font-bold flex items-center absolute bottom-6">
+              <button className="pointer text-orange-500 font-bold flex items-center absolute bottom-4">
                 Learn more
                 <BsArrowRight
                   size="25px"
