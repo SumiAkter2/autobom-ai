@@ -12,7 +12,7 @@ import img4 from "../../../assets/dashboard/ford.png";
 import "./ManageSpeed.css";
 const ManageSpend = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Swiper
         autoplay={{
           delay: 0,
