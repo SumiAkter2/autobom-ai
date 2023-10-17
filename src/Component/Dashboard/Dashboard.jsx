@@ -6,7 +6,6 @@ const Dashboard = () => {
     <div className="">
       <DashboardHeader />
       <DashboardBanner />
-      <h1>Dashboard is Coming Soon...</h1>
     </div>
   );
 };
