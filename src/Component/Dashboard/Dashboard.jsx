@@ -1,6 +1,11 @@
+import DashboardBanner from "./DashboardBanner";
+import DashboardHeader from "./DashboardHeader";
+
 const Dashboard = () => {
   return (
-    <div className="my-36">
+    <div className="">
+      <DashboardHeader />
+      <DashboardBanner />
       <h1>Dashboard is Coming Soon...</h1>
     </div>
   );
