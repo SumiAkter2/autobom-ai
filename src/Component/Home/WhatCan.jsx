@@ -16,12 +16,11 @@ const WhatCan = () => {
                 Learn how our spend platform can increase the strategic impact
                 of your finance team and future-proof your company.
               </p>
-              <button className="btn bg-orange-500 text-white  hover:text-black hover:bg-orange-300 border-0">
-                Contact Sales
-              </button>
-              <button className="btn bg-slate-900 text-white hover:text-black hover:bg-white ml-6  border">
-                Contact Sales
-              </button>
+              <a href="mailto:hariish@autobom.ai " className="mt-8">
+                <button className="btn bg-orange-500 text-white  hover:text-black hover:bg-orange-300 border-0">
+                  Request Demo
+                </button>
+              </a>
             </div>
           </div>
         </div>

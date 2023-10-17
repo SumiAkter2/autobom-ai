@@ -41,8 +41,8 @@ const SeatGeek = () => {
             className=" hover:border hover:border-gray-400 rounded-md ease-in duration-300"
           >
             <div className="px-4">
-              <img src={info.img} alt="image" className="w-36 my-6" />
-              <p className="font-semibold">{info.name}</p>
+              <img src={info.img} alt="image" className="lg:w-36 w-24 my-6" />
+              <p className="font-semibold text-sm lg:text-xl">{info.name}</p>
               <button className="pointer text-orange-600 font-semibold flex items-center mt-6">
                 Read more
                 <BsArrowRight

@@ -4,7 +4,7 @@ import img from "../../assets/dashboard/dashboard.png";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen shadow-lg py-32">
+      <div className="hero min-h-screen shadow-lg py-32 px-4">
         <div className="lg:hero-content lg:flex-row-reverse ">
           <div className=" lg:text-start text-center  lg:absolute left-10 text-black">
             <div className="lg:max-w-lg">
