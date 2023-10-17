@@ -5,6 +5,11 @@ import { MdPayments } from "react-icons/md";
 import { AiOutlineSafety } from "react-icons/ai";
 import { PiChatTextLight } from "react-icons/pi";
 import { LiaPuzzlePieceSolid } from "react-icons/lia";
+import logo1 from "../../assets/dashboard/app.png";
+import logo2 from "../../assets/dashboard/bmw.png";
+import logo3 from "../../assets/dashboard/t.png";
+import logo4 from "../../assets/dashboard/gm.png";
+
 const safe = <AiOutlineSafety size="35px" />;
 const text = <PiChatTextLight size="35px" />;
 const puzzle = <LiaPuzzlePieceSolid size="35px" />;
@@ -91,5 +96,79 @@ export const geekInfo = [
     id: 4,
     img: "https://brand.brex.com/transform/f1e39cdd-e724-4a14-8b6f-f61958407cfb/CNBC?io=transform:fit,width:1400,height:203&quality=95",
     name: "Brex named #2 on the 2023 top 50 disruptors list of innovative companies advancing breakthrough technology.",
+  },
+];
+
+export const dashboardInfo = [
+  {
+    id: 1,
+    name: "WSL25122L000FED",
+    time: "3 Weeks",
+    SupName: "Panasonic",
+    des: "Resistors- SMDWSL-2...",
+    status: "Completed",
+    quantity: "43,514",
+  },
+  {
+    id: 2,
+    name: "TNPW060353K6B",
+    time: "2 Weeks",
+    SupName: "Ohmite",
+    des: "Thin Film Resistors-...",
+    status: "Completed",
+    quantity: "99,930",
+  },
+  {
+    id: 3,
+    name: "M24256E-FMH6TG",
+    time: "5 Weeks",
+    SupName: "Vishay",
+    des: "EEPROM 256-Kbit se...",
+    status: "Completed",
+    quantity: "50,962",
+  },
+  {
+    id: 4,
+    name: "WSL2512R0430FEA",
+    time: "1 Weeks",
+    SupName: "Panasonic",
+    des: "FPGA-Configurati...",
+    status: "Completed",
+    quantity: "59,962",
+  },
+  {
+    id: 5,
+    name: "WSL2512R0100FEC",
+    time: "2 Weeks",
+    SupName: "Panasonic",
+    des: "FPGA-Configurati.",
+    status: "Completed",
+    quantity: "59,962",
+  },
+];
+export const dashboardInfo2 = [
+  {
+    id: 1,
+    img: logo1,
+    name: "Gear Shift Acuator",
+    des: "550 Components",
+  },
+  {
+    id: 2,
+    img: logo2,
+    name: "LED Lighting Moudle",
+    des: "220 Components",
+  },
+  {
+    id: 3,
+    img: logo3,
+    name: "MacBook Pro Sensor",
+    des: "90 Components",
+  },
+  {
+    id: 4,
+    img: logo4,
+    name: "LED Lighting Moudle",
+    des: "120 Components",
   },
 ];
