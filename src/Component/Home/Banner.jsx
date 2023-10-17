@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
-import { MdDashboard } from "react-icons/md";
+import img from "../../assets/dashboard/dashboard.png";
+
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-gray-300 shadow-lg">
+      <div className="hero min-h-screen shadow-lg py-32">
         <div className="lg:hero-content lg:flex-row-reverse ">
           <div className=" lg:text-start text-center  lg:absolute left-10 text-black">
             <div className="lg:max-w-lg">
-              <h1 className="mb-6 text-5xl font-bold text-orange-500">
-                Meet Autobom Ai
+              <h1 className="mb-6 lg:text-5xl text-3xl font-bold">
+                Meet AUTOBOM Ai
               </h1>
               <p className="my-12 text-xl font-bold leading-9">
                 Revolutionization BOM Optimizing with Ai power. Reducing cost,
@@ -21,15 +22,9 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className="lg:absolute right-10  flex justify-center items-center mt-12 lg:mt-0">
-            <MdDashboard size="100px" color="orangered" className="lg:w-32" />
+          <div className="lg:absolute right-10  flex justify-center items-center mt-12 lg:mt-0 px-4">
             <Link to="/dashboard">
-              <h1 className=" font-bold text-2xl">
-                Let&lsquo;s check Dashboard
-              </h1>
-              <button className=" mt-2 text-xl underline  rounded-full  text-orange-500 font-bold">
-                Dashboard
-              </button>
+              <img src={img} alt="" className="lg:max-w-lg shadow-lg" />
             </Link>
           </div>
         </div>

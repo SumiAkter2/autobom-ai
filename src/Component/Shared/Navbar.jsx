@@ -34,8 +34,9 @@ const Navbar = () => {
       <li>
         <Link to="/">About</Link>
       </li>
+
       <li>
-        <Link to="/">Contact</Link>
+        <Link to="/dashboard">Dashboard</Link>
       </li>
     </>
   );
@@ -44,7 +45,7 @@ const Navbar = () => {
       <div className="navbar bg-gray-200 text-black font-bold shadow-lg fixed lg:top-0 z-20">
         <div className="navbar-start">
           {/* menu drawer */}
-          <div className="drawer  lg:hidden ">
+          <div className="drawer lg:hidden ">
             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
               <label
@@ -66,7 +67,7 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          <Link to="/" className="px-4 font-bold text-xl ">
+          <Link to="/" className=" font-bold text-xl ">
             <img src={logo} alt="logo" className="w-16" />
           </Link>
         </div>
