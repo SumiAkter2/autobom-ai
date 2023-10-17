@@ -27,17 +27,21 @@ const Navbar = () => {
           </div>
         </Link>
       </li>
-      <li>
-        <Link to="/">Statups</Link>
-      </li>
+
       <li>
         <Link to="/">Resources</Link>
+      </li>
+      <li>
+        <Link to="/">About</Link>
+      </li>
+      <li>
+        <Link to="/">Contact</Link>
       </li>
     </>
   );
   return (
     <div>
-      <div className="navbar bg-slate-400 text-black font-bold shadow-lg fixed lg:top-0 z-20">
+      <div className="navbar bg-gray-200 text-black font-bold shadow-lg fixed lg:top-0 z-20">
         <div className="navbar-start">
           {/* menu drawer */}
           <div className="drawer  lg:hidden ">

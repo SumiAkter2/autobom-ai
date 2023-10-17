@@ -11,23 +11,28 @@ const Footer = () => {
         </aside>
         <nav>
           <header className="footer-title">Services</header>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">Products</a>
+          <a className="link link-hover">Startups</a>
+          <a className="link link-hover">Resources</a>
         </nav>
         <nav>
           <header className="footer-title">Company</header>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a className="link link-hover" href="https://autobom.ai/">
+            Press
+          </a>
+          <a className="link link-hover" href="/dashboard">
+            Dashboard
+          </a>
         </nav>
         <nav>
-          <header className="footer-title">Legal</header>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <header className="footer-title">Contact us</header>
+          <p className=" w-1/2 mb-4">
+            - Contact our team for inquiries, support, or partnerships:
+          </p>
+          <p>Email: contact@autobom.ai</p>
+          <p>Phone: +1-123-456-7890</p>
         </nav>
       </footer>
       <footer className=" p-10 bg-[#171717] text-[#BCBDBD]">
@@ -78,26 +83,13 @@ const Footer = () => {
       <footer className="footer footer-center p-10  bg-[#171717] text-[#BCBDBD]">
         <nav>
           <div className="text-sm lg:text-start text-center py-24">
-            <p>
-              ©2023 Brex Inc. (“Brex”) and the Brex logo are registered
-              trademarks.
+            <p className="my-4">
+              Copyright © 2023 Automated BOM - AI - All Rights Reserved.
             </p>
+            <p>Privacy Policy and Terms of Service:</p>
             <p>
-              Brex Inc. provides the Brex Mastercard® Corporate Credit Card,
-              issued by Emigrant Bank, Member FDIC or Fifth Third Bank, NA.,
-              Member FDIC. Use of Brex’s user data access application
-              programming interfaces is subject to the Brex Access Agreement.
-              Use of Brex Empower and other Brex products is subject to the
-              Platform Agreement.
-            </p>
-            <p>
-              Brex Treasury LLC (“Brex Treasury”) is an affiliate of Brex and a
-              member of FINRA and SIPC that provides Brex business accounts,
-              accounts that allow customers to sweep uninvested cash balances
-              into certain money market mutual funds or FDIC-insured bank
-              accounts at Brex’s partner banks, such as JPMorgan Chase Bank,
-              Member FDIC. A list of partner banks is available at
-              https://www.brex.com/legal.
+              Read our Privacy Policy and Terms of Service to learn how we
+              handle your data and your responsibilities
             </p>
             <p>
               Investing in securities products involves risk and you could lose
@@ -116,9 +108,9 @@ const Footer = () => {
               vary.
             </p>
             <p>
-              SIPC currently protects the assets in each of your securities
-              accounts at Brex Treasury up to $500,000 (including $250,000 for
-              claims for cash). Please see https://www.sipc.org/
+              Remember that your website should be clear, concise, and
+              user-friendly. Use engaging visuals and maintain a consistent tone
+              throughout.
             </p>
             <p>
               This is not an offer, solicitation of an offer, recommendation or
@@ -129,13 +121,9 @@ const Footer = () => {
               Please visit the Deposit Sweep Program Disclosure Statement for
               important legal disclosures.
             </p>
-            <p>
-              Brex does not provide, nor does it guarantee, any third-party
-              product, service, information, or recommendation and may pay third
-              parties and/or be paid by them for customer referrals.
-            </p>
-            <p className="font-bold">
-              Services may be provided by Brex Payments LLC (NMLS #2035354).
+
+            <p className="font-bold my-4">
+              AUTOBOM.AI IS Transforming Bill of Materials (BOM) Management.
             </p>
           </div>
         </nav>
