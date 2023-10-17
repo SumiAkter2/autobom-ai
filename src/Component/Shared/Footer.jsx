@@ -1,12 +1,13 @@
 import appStore from "../../assets/footer/Download_on_the_App_Store_Badge.svg.png";
 import googleStore from "../../assets/footer/en_badge_web_generic.png";
+import logo from "../../assets/dashboard/Frame 230.png";
+
 const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-[#171717] text-[#BCBDBD] text-xl ">
         <aside>
-          <img src="" alt="" />
-          <p className="text-2xl font-bold">Autobom Ai</p>
+          <img src={logo} alt="logo" />
         </aside>
         <nav>
           <header className="footer-title">Services</header>

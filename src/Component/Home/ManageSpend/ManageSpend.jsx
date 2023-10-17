@@ -4,6 +4,10 @@ import "swiper/css/pagination";
 import { BsArrowRight } from "react-icons/bs";
 import { Autoplay } from "swiper/modules";
 import { manageSpeedInfo } from "../../info/Info";
+import img1 from "../../../assets/dashboard/Flex_(company)-Logo.wine.png";
+import img2 from "../../../assets/dashboard/t.png";
+import img3 from "../../../assets/dashboard/gm.png";
+import img4 from "../../../assets/dashboard/ford.png";
 
 import "./ManageSpeed.css";
 const ManageSpend = () => {
@@ -43,77 +47,46 @@ const ManageSpend = () => {
         className="my-12 sample-slider"
       >
         <SwiperSlide>
-          <img
-            className="w-32"
-            src="https://brand.brex.com/transform/6896e0a6-f450-4920-a60c-cdc6021ac1e2/airbnb_logo_color?io=transform:fit,width:192,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-32" src={img1} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-40"
-            src="https://brand.brex.com/transform/b9e84267-da80-4adf-a495-004834216963/ycombinator_logo_color?io=transform:fit,width:332,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-20" src={img2} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-40"
-            src="https://brand.brex.com/transform/12b07fe8-7174-4ead-a463-fc1324e1db33/doordash-logo-1?io=transform:fit,width:438,height:52&quality=95"
-            alt=""
-          />
+          <img className="w-20" src={img3} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-24"
-            src="https://brand.brex.com/transform/1f8e0aaf-2bda-402e-9f64-49ec6103c649/scale_logo_color?io=transform:fit,width:198,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-32" src={img4} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-32"
-            src="https://brand.brex.com/transform/73da92e4-375b-4488-906c-456879499a6a/airtable_logo_color?io=transform:fit,width:240,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-32" src={img1} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-36"
-            src="https://brand.brex.com/transform/6862adb9-c752-43ce-9058-71fe7b60c4ad/whatnot?io=transform:fit,width:364,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-20" src={img2} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-36"
-            src="https://brand.brex.com/transform/01b11bea-86eb-4b84-9c57-92280d34d45c/classpass_logo_color?io=transform:fit,width:328,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-20" src={img3} alt="brand image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-24"
-            src="https://brand.brex.com/transform/2d116611-2537-47cc-9e1e-f1aa69e044e7/deel_logo_color?io=transform:fit,width:176,height:64&quality=95"
-            alt=""
-          />
+          <img className="w-32" src={img4} alt="brand image" />
         </SwiperSlide>
       </Swiper>
 
-      <div className="text-center ">
-        <h1 className="lg:text-5xl text-3xl font-bold my-4 ">
-          The smartest way to manage spend.
+      <div className="text-center px-4">
+        <h1 className="lg:text-4xl text-3xl font-bold my-4 ">
+          The smartest way to optimized Bill of Materials.
         </h1>
-        <p className="text-xl">
-          Automate compliance, close the books faster, and keep everyone on
-          budget in real time, worldwide.
+        <p className="text-xl lg:w-2/3 mx-auto">
+          AutoBOM.AI is your all-in-one solution for BOM optimization. It
+          leverages AI to streamline component selection, reduce costs, and
+          accelerate time-to-market.
         </p>
       </div>
 
       <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 lg:mx-32 mx-6 my-12">
         {manageSpeedInfo.map((info) => (
           <div key={info.id}>
-            <div className="font-semibold p-6 border border-gray-700 lg:h-80 h-72 rounded-lg hover:border-gray-300 relative">
+            <div className="font-semibold p-6 border border-gray-700 lg:h-96 h-80 rounded-lg hover:border-gray-300 relative">
               <div className="mb-4">
                 <p>{info.img}</p>
               </div>

@@ -1,7 +1,7 @@
-import { BsCreditCardFill } from "react-icons/bs";
+import { BsFillClockFill } from "react-icons/bs";
 import { RiMoneyDollarBoxFill } from "react-icons/ri";
-import { MdCardTravel } from "react-icons/md";
-import { MdPayments } from "react-icons/md";
+import { MdFindInPage } from "react-icons/md";
+import { MdHighQuality } from "react-icons/md";
 import { AiOutlineSafety } from "react-icons/ai";
 import { PiChatTextLight } from "react-icons/pi";
 import { LiaPuzzlePieceSolid } from "react-icons/lia";
@@ -13,34 +13,34 @@ import logo4 from "../../assets/dashboard/gm.png";
 const safe = <AiOutlineSafety size="35px" />;
 const text = <PiChatTextLight size="35px" />;
 const puzzle = <LiaPuzzlePieceSolid size="35px" />;
-const card = <BsCreditCardFill size="30px" />;
+const clock = <BsFillClockFill size="30px" />;
 const dollar = <RiMoneyDollarBoxFill size="30px" />;
-const travel = <MdCardTravel size="30px" />;
-const bill = <MdPayments size="30px" />;
+const travel = <MdFindInPage size="30px" />;
+const quality = <MdHighQuality size="30px" />;
 export const manageSpeedInfo = [
   {
     id: 1,
-    img: card,
-    name: "Global corporate cards",
-    des: "Issue cards for purchasing, travel, expenses, and more with custom limits and controls.",
+    img: clock,
+    name: "Cut Lead Times",
+    des: "Component IQ doesn't just find alternatives; it optimizes your BOM for cost- efficiency  and faster lead times. It's like having an entire team of experts who know the electronic component market inside out.",
   },
   {
     id: 2,
     img: dollar,
-    name: "Expense management",
-    des: "Control all spend, payments, and reimbursements — and automate expense reports.",
+    name: " Slash component costs",
+    des: "Once the analysis is complete, you'll receive a detailed report. It outlines the cost savings achieved, how much you can save per component, and the overall impact on your project's budget.",
   },
   {
     id: 3,
     img: travel,
-    name: "Travel",
-    des: "Book and manage global travel and group events, with unbiased inventory and 24/7 agent support.",
+    name: " Find 1:1 alternatives",
+    des: "The magic happens here. Component IQ, our AI engine, carefully matches each of your components with 1:1 alternatives that perfectly align with datasheet specifications.",
   },
   {
     id: 4,
-    img: bill,
-    name: "Bill pay",
-    des: "Automate your entire accounts payable process, from invoice capture to payment to reconciliation.",
+    img: quality,
+    name: "Ensure higher quality",
+    des: "Don't worry; we never compromises on quality. Component IQ ensures that every alternative component it suggests meets the highest quality and specification standards.",
   },
 ];
 export const enterpriseInfo = [

@@ -2,17 +2,6 @@ import { BsArrowRight } from "react-icons/bs";
 const Experience = () => {
   return (
     <div className="mb-12">
-      <div className="text-center font-semibold p-2 ">
-        <h1 className="lg:text-5xl text-3xl font-bold my-4">
-          Go from reactive to proactive.
-        </h1>
-        <p className="text-xl lg:w-1/2 mx-auto mt-4 leading-7">
-          Every Brex product runs on our unified Empower platform — built from
-          the ground up to help you automate manual expense work and stop
-          unwanted spend before it happens.
-        </p>
-      </div>
-
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row justify-around">
           <img
