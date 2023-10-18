@@ -7,7 +7,6 @@ import logo1 from "../../assets/dashboard/app.png";
 import logo2 from "../../assets/dashboard/bmw.png";
 import logo3 from "../../assets/dashboard/t.png";
 import logo4 from "../../assets/dashboard/gm.png";
-
 const clock = <BsFillClockFill size="30px" />;
 const dollar = <RiMoneyDollarBoxFill size="30px" />;
 const travel = <MdFindInPage size="30px" />;
