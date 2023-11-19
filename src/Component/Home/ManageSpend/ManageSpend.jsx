@@ -1,18 +1,18 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { BsArrowRight } from "react-icons/bs";
-import { Autoplay } from "swiper/modules";
+// import { Autoplay } from "swiper/modules";
 import { manageSpeedInfo } from "../../info/Info";
-import img1 from "../../../assets/dashboard/Flex_(company)-Logo.wine.png";
-import img2 from "../../../assets/dashboard/t.png";
-import img3 from "../../../assets/dashboard/gm.png";
-import img4 from "../../../assets/dashboard/ford.png";
+// import img1 from "../../../assets/dashboard/Flex_(company)-Logo.wine.png";
+// import img2 from "../../../assets/dashboard/t.png";
+// import img3 from "../../../assets/dashboard/gm.png";
+// import img4 from "../../../assets/dashboard/ford.png";
 
 const ManageSpend = () => {
   return (
     <div className="bg-white">
-      <Swiper
+      {/* <Swiper
         autoplay={{
           delay: 0,
         }}
@@ -69,7 +69,7 @@ const ManageSpend = () => {
         <SwiperSlide>
           <img className="w-32" src={img4} alt="brand image" />
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
 
       <div className="text-center px-4">
         <h1 className="lg:text-4xl text-3xl font-bold my-4 ">
